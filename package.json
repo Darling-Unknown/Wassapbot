@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot deployed on Render",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.18.4", // or the latest version
+    "qrcode-terminal": "^0.12.0"
+  }
+}
